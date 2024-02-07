@@ -75,17 +75,13 @@ h6 {
 
 body {
   font-family: "Noto Sans", sans-serif;
+  color: rgba(17, 24, 39, 1);
 }
 
 .container {
   max-width: 1536px;
   margin: 0 auto;
   border: 2px solid red;
-}
-
-.header-top {
-}
-.container {
 }
 .header-top__container {
   display: flex;
@@ -102,6 +98,8 @@ body {
   font-size: 24px;
   max-width: 251px;
   padding-top: 21px;
+  padding-bottom: 21px;
+  vertical-align: -11px;
 }
 
 .header-top__help-box {
@@ -125,13 +123,67 @@ body {
   flex-direction: column;
   padding-left: 12px;
 }
-.tell {
+
+.header-top__link {
   font-weight: 900;
   font-size: 36px;
   line-height: 40px;
+  color: rgba(17, 24, 39, 1);
+}
+.call:hover {
+  color: rgba(139, 92, 246, 1);
 }
 .region {
   font-weight: 300;
   font-size: 24px;
   line-height: 32px;
+}
+
+.header {
+  padding-top: 24px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list__box {
+}
+.list {
+  padding: 10px;
+  display: flex;
+  min-width: 372px;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.list-link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  color: #111827;
+  transition-duration: 0.2s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+  padding: 2px;
+  cursor: pointer;
+}
+.list-link:hover {
+  color: rgba(139, 92, 246, 1);
+  border-bottom: 2px dashed rgba(139, 92, 246, 1);
+}
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(249, 250, 251, 1);
+  background-color: rgba(139, 92, 246, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+.header__btn {
+  padding-left: 28px;
+  padding-right: 28px;
 }
