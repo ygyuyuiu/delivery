@@ -83,6 +83,8 @@ body {
   margin: 0 auto;
   border: 2px solid red;
 }
+
+/* header-top */
 .header-top__container {
   display: flex;
   justify-content: space-between;
@@ -139,16 +141,15 @@ body {
   line-height: 32px;
 }
 
+/* header */
 .header {
   padding-top: 24px;
+  padding-bottom: 24px;
 }
-
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.header-list__box {
 }
 .list {
   padding: 10px;
@@ -186,4 +187,98 @@ body {
 .header__btn {
   padding-left: 28px;
   padding-right: 28px;
+}
+
+/* promo */
+.promo {
+  padding-top: 72px;
+  background-color: rgba(229, 231, 235, 1);
+}
+
+.promo__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.promo__box {
+  max-width: 756px;
+}
+.promo__heading {
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 40px;
+  padding-bottom: 12px;
+}
+.promo__text {
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 16px;
+}
+.promo__box img {
+  border-radius: 16px;
+  transform: scale(-1, 1);
+}
+
+.promo__form {
+  background-color: rgba(249, 250, 251, 1);
+  border-radius: 16px;
+  min-width: 756px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.promo__heading-input {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-top: 24px;
+}
+.promo__text-input {
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 16px;
+  padding-bottom: 28px;
+  max-width: 358px;
+  text-align: center;
+}
+
+.promo__form-box {
+  min-width: 496px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.promo__input-first {
+  padding-bottom: 24px;
+}
+.promo__input-name {
+  min-width: 496px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid rgba(17, 24, 39, 1);
+  background-color: rgba(249, 250, 251, 1);
+  font-size: 16px;
+}
+.promo__input-secondary {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 248px;
+}
+.promo__input-comman {
+  max-width: 236px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid rgba(17, 24, 39, 1);
+  color: rgba(249, 250, 251, 1);
+  font-size: 16px;
+}
+.promo__input-fird {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 248px;
 }
