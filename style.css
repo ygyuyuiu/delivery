@@ -282,3 +282,53 @@ body {
   gap: 24px;
   max-width: 248px;
 }
+
+/* card */
+.card {
+  padding-top: 72px;
+  background: rgba(229, 231, 235, 1);
+}
+
+.card__wrapper {
+}
+.heading {
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+.card__box {
+  padding-top: 24px;
+}
+.card__box-first {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card__box-second {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card__inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 496px;
+}
+.card__inner-text {
+  max-width: 300px;
+  padding-top: 40px;
+  padding-right: 24px;
+  padding-left: 12px;
+}
+.card__title {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+.card__text {
+  max-width: 300px;
+  font-size: 14px;
+  line-height: 20px;
+}
