@@ -332,3 +332,48 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
+
+/* guarantees */
+.guarantees {
+  padding-top: 72px;
+  background: rgba(229, 231, 235, 1);
+}
+
+.text {
+  margin: 0 auto;
+
+  padding-top: 12px;
+  padding-bottom: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 756px;
+  text-align: center;
+}
+
+.guarantees__cards {
+  max-width: 485px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 26px;
+}
+
+.guarantees__text {
+  display: inline-block;
+  padding-top: 4px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.guarantees__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guarantees__btn {
+  padding: 16px 28px;
+  border-radius: 12px;
+}
